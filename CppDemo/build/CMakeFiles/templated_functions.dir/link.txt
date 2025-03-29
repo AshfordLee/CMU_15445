@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/templated_functions.dir/src/templated_functions.cpp.o -o /root/CMU_C++_BOOTCAMP/CppDemo/bin/templated_functions 

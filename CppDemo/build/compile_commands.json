@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/templated_classes.dir/src/templated_classes.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/templated_classes.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/templated_classes.cpp",
+  "output": "CMakeFiles/templated_classes.dir/src/templated_classes.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/templated_functions.dir/src/templated_functions.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/templated_functions.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/templated_functions.cpp",
+  "output": "CMakeFiles/templated_functions.dir/src/templated_functions.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/references.dir/src/references.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/references.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/references.cpp",
+  "output": "CMakeFiles/references.dir/src/references.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/move_semantics.dir/src/move_semantics.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/move_semantics.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/move_semantics.cpp",
+  "output": "CMakeFiles/move_semantics.dir/src/move_semantics.cpp.o"
+}
+]
