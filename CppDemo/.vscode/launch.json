@@ -1,0 +1,42 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug references",
+            "program": "${workspaceFolder}/bin/references",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug move_semantics",
+            "program": "${workspaceFolder}/bin/move_semantics",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug templated_functions",
+            "program": "${workspaceFolder}/bin/templated_functions",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug templated_classes",
+            "program": "${workspaceFolder}/bin/templated_classes",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
+
+
