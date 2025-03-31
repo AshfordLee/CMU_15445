@@ -168,6 +168,43 @@ move_semantics/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_semantics.dir/build.make CMakeFiles/move_semantics.dir/build
 .PHONY : move_semantics/fast
 
+#=============================================================================
+# Target rules for targets named move_constructors
+
+# Build rule for target.
+move_constructors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_constructors
+.PHONY : move_constructors
+
+# fast build rule for target.
+move_constructors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_constructors.dir/build.make CMakeFiles/move_constructors.dir/build
+.PHONY : move_constructors/fast
+
+src/move_constructors.o: src/move_constructors.cpp.o
+.PHONY : src/move_constructors.o
+
+# target to build an object file
+src/move_constructors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_constructors.dir/build.make CMakeFiles/move_constructors.dir/src/move_constructors.cpp.o
+.PHONY : src/move_constructors.cpp.o
+
+src/move_constructors.i: src/move_constructors.cpp.i
+.PHONY : src/move_constructors.i
+
+# target to preprocess a source file
+src/move_constructors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_constructors.dir/build.make CMakeFiles/move_constructors.dir/src/move_constructors.cpp.i
+.PHONY : src/move_constructors.cpp.i
+
+src/move_constructors.s: src/move_constructors.cpp.s
+.PHONY : src/move_constructors.s
+
+# target to generate assembly for a file
+src/move_constructors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_constructors.dir/build.make CMakeFiles/move_constructors.dir/src/move_constructors.cpp.s
+.PHONY : src/move_constructors.cpp.s
+
 src/move_semantics.o: src/move_semantics.cpp.o
 .PHONY : src/move_semantics.o
 
@@ -272,10 +309,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... move_constructors"
 	@echo "... move_semantics"
 	@echo "... references"
 	@echo "... templated_classes"
 	@echo "... templated_functions"
+	@echo "... src/move_constructors.o"
+	@echo "... src/move_constructors.i"
+	@echo "... src/move_constructors.s"
 	@echo "... src/move_semantics.o"
 	@echo "... src/move_semantics.i"
 	@echo "... src/move_semantics.s"

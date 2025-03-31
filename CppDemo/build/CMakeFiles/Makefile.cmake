@@ -48,4 +48,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/templated_functions.dir/DependInfo.cmake"
   "CMakeFiles/references.dir/DependInfo.cmake"
   "CMakeFiles/move_semantics.dir/DependInfo.cmake"
+  "CMakeFiles/move_constructors.dir/DependInfo.cmake"
   )

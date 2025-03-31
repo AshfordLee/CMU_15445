@@ -35,6 +35,14 @@
             "program": "${workspaceFolder}/bin/templated_classes",
             "args": [],
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug move_constructors",
+            "program": "${workspaceFolder}/bin/move_constructors",
+            "args": [],
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

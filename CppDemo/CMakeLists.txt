@@ -14,6 +14,7 @@ add_executable(templated_classes src/templated_classes.cpp)
 add_executable(templated_functions src/templated_functions.cpp)
 add_executable(references src/references.cpp)
 add_executable(move_semantics src/move_semantics.cpp)
+add_executable(move_constructors src/move_constructors.cpp)
 
 # 添加include目录（如果有头文件的话）
 include_directories(include)

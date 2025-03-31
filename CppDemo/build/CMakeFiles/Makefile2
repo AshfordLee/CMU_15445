@@ -67,6 +67,7 @@ all: CMakeFiles/templated_classes.dir/all
 all: CMakeFiles/templated_functions.dir/all
 all: CMakeFiles/references.dir/all
 all: CMakeFiles/move_semantics.dir/all
+all: CMakeFiles/move_constructors.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ clean: CMakeFiles/templated_classes.dir/clean
 clean: CMakeFiles/templated_functions.dir/clean
 clean: CMakeFiles/references.dir/clean
 clean: CMakeFiles/move_semantics.dir/clean
+clean: CMakeFiles/move_constructors.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -87,7 +89,7 @@ clean: CMakeFiles/move_semantics.dir/clean
 CMakeFiles/templated_classes.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/templated_classes.dir/build.make CMakeFiles/templated_classes.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/templated_classes.dir/build.make CMakeFiles/templated_classes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=5,6 "Built target templated_classes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=7,8 "Built target templated_classes"
 .PHONY : CMakeFiles/templated_classes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -113,7 +115,7 @@ CMakeFiles/templated_classes.dir/clean:
 CMakeFiles/templated_functions.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/templated_functions.dir/build.make CMakeFiles/templated_functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/templated_functions.dir/build.make CMakeFiles/templated_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=7,8 "Built target templated_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=9,10 "Built target templated_functions"
 .PHONY : CMakeFiles/templated_functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +141,7 @@ CMakeFiles/templated_functions.dir/clean:
 CMakeFiles/references.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/references.dir/build.make CMakeFiles/references.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/references.dir/build.make CMakeFiles/references.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=3,4 "Built target references"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=5,6 "Built target references"
 .PHONY : CMakeFiles/references.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +167,7 @@ CMakeFiles/references.dir/clean:
 CMakeFiles/move_semantics.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_semantics.dir/build.make CMakeFiles/move_semantics.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_semantics.dir/build.make CMakeFiles/move_semantics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=1,2 "Built target move_semantics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=3,4 "Built target move_semantics"
 .PHONY : CMakeFiles/move_semantics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,6 +185,32 @@ move_semantics: CMakeFiles/move_semantics.dir/rule
 CMakeFiles/move_semantics.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_semantics.dir/build.make CMakeFiles/move_semantics.dir/clean
 .PHONY : CMakeFiles/move_semantics.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/move_constructors.dir
+
+# All Build rule for target.
+CMakeFiles/move_constructors.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_constructors.dir/build.make CMakeFiles/move_constructors.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_constructors.dir/build.make CMakeFiles/move_constructors.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles --progress-num=1,2 "Built target move_constructors"
+.PHONY : CMakeFiles/move_constructors.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_constructors.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move_constructors.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles 0
+.PHONY : CMakeFiles/move_constructors.dir/rule
+
+# Convenience name for target.
+move_constructors: CMakeFiles/move_constructors.dir/rule
+.PHONY : move_constructors
+
+# clean rule for target.
+CMakeFiles/move_constructors.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_constructors.dir/build.make CMakeFiles/move_constructors.dir/clean
+.PHONY : CMakeFiles/move_constructors.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
