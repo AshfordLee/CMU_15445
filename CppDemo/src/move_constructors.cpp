@@ -152,5 +152,6 @@ int main()
     Person andy3;
     // andy3=andy2;
     //这里这种赋值被我们delete掉了，所以编译会报错
+    //所以不要这样干
     return 0;
 }
