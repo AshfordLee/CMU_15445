@@ -28,5 +28,11 @@
   "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/move_constructors.dir/src/move_constructors.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/move_constructors.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/move_constructors.cpp",
   "output": "CMakeFiles/move_constructors.dir/src/move_constructors.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/vectors.dir/src/vectors.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/vectors.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/vectors.cpp",
+  "output": "CMakeFiles/vectors.dir/src/vectors.cpp.o"
 }
 ]

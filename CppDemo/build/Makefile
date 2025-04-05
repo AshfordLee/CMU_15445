@@ -181,6 +181,19 @@ move_constructors/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_constructors.dir/build.make CMakeFiles/move_constructors.dir/build
 .PHONY : move_constructors/fast
 
+#=============================================================================
+# Target rules for targets named vectors
+
+# Build rule for target.
+vectors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vectors
+.PHONY : vectors
+
+# fast build rule for target.
+vectors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/build
+.PHONY : vectors/fast
+
 src/move_constructors.o: src/move_constructors.cpp.o
 .PHONY : src/move_constructors.o
 
@@ -301,6 +314,30 @@ src/templated_functions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/templated_functions.dir/build.make CMakeFiles/templated_functions.dir/src/templated_functions.cpp.s
 .PHONY : src/templated_functions.cpp.s
 
+src/vectors.o: src/vectors.cpp.o
+.PHONY : src/vectors.o
+
+# target to build an object file
+src/vectors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/src/vectors.cpp.o
+.PHONY : src/vectors.cpp.o
+
+src/vectors.i: src/vectors.cpp.i
+.PHONY : src/vectors.i
+
+# target to preprocess a source file
+src/vectors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/src/vectors.cpp.i
+.PHONY : src/vectors.cpp.i
+
+src/vectors.s: src/vectors.cpp.s
+.PHONY : src/vectors.s
+
+# target to generate assembly for a file
+src/vectors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/src/vectors.cpp.s
+.PHONY : src/vectors.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,6 +351,7 @@ help:
 	@echo "... references"
 	@echo "... templated_classes"
 	@echo "... templated_functions"
+	@echo "... vectors"
 	@echo "... src/move_constructors.o"
 	@echo "... src/move_constructors.i"
 	@echo "... src/move_constructors.s"
@@ -329,6 +367,9 @@ help:
 	@echo "... src/templated_functions.o"
 	@echo "... src/templated_functions.i"
 	@echo "... src/templated_functions.s"
+	@echo "... src/vectors.o"
+	@echo "... src/vectors.i"
+	@echo "... src/vectors.s"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/vectors.dir/src/vectors.cpp.o -o /root/CMU_C++_BOOTCAMP/CppDemo/bin/vectors 

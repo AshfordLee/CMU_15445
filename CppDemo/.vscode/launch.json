@@ -43,6 +43,14 @@
             "program": "${workspaceFolder}/bin/move_constructors",
             "args": [],
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug vectors",
+            "program": "${workspaceFolder}/bin/vectors",
+            "args": [],
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

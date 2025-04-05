@@ -49,4 +49,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/references.dir/DependInfo.cmake"
   "CMakeFiles/move_semantics.dir/DependInfo.cmake"
   "CMakeFiles/move_constructors.dir/DependInfo.cmake"
+  "CMakeFiles/vectors.dir/DependInfo.cmake"
   )

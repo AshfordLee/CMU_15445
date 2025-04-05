@@ -3,5 +3,6 @@
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/references.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/move_semantics.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/move_constructors.dir
+/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/vectors.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/edit_cache.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/rebuild_cache.dir
