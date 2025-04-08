@@ -194,6 +194,69 @@ vectors/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/build
 .PHONY : vectors/fast
 
+#=============================================================================
+# Target rules for targets named sets
+
+# Build rule for target.
+sets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sets
+.PHONY : sets
+
+# fast build rule for target.
+sets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sets.dir/build.make CMakeFiles/sets.dir/build
+.PHONY : sets/fast
+
+#=============================================================================
+# Target rules for targets named unordered_maps
+
+# Build rule for target.
+unordered_maps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unordered_maps
+.PHONY : unordered_maps
+
+# fast build rule for target.
+unordered_maps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unordered_maps.dir/build.make CMakeFiles/unordered_maps.dir/build
+.PHONY : unordered_maps/fast
+
+#=============================================================================
+# Target rules for targets named auto
+
+# Build rule for target.
+auto: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 auto
+.PHONY : auto
+
+# fast build rule for target.
+auto/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auto.dir/build.make CMakeFiles/auto.dir/build
+.PHONY : auto/fast
+
+src/auto.o: src/auto.cpp.o
+.PHONY : src/auto.o
+
+# target to build an object file
+src/auto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auto.dir/build.make CMakeFiles/auto.dir/src/auto.cpp.o
+.PHONY : src/auto.cpp.o
+
+src/auto.i: src/auto.cpp.i
+.PHONY : src/auto.i
+
+# target to preprocess a source file
+src/auto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auto.dir/build.make CMakeFiles/auto.dir/src/auto.cpp.i
+.PHONY : src/auto.cpp.i
+
+src/auto.s: src/auto.cpp.s
+.PHONY : src/auto.s
+
+# target to generate assembly for a file
+src/auto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auto.dir/build.make CMakeFiles/auto.dir/src/auto.cpp.s
+.PHONY : src/auto.cpp.s
+
 src/move_constructors.o: src/move_constructors.cpp.o
 .PHONY : src/move_constructors.o
 
@@ -266,6 +329,30 @@ src/references.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/references.dir/build.make CMakeFiles/references.dir/src/references.cpp.s
 .PHONY : src/references.cpp.s
 
+src/sets.o: src/sets.cpp.o
+.PHONY : src/sets.o
+
+# target to build an object file
+src/sets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sets.dir/build.make CMakeFiles/sets.dir/src/sets.cpp.o
+.PHONY : src/sets.cpp.o
+
+src/sets.i: src/sets.cpp.i
+.PHONY : src/sets.i
+
+# target to preprocess a source file
+src/sets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sets.dir/build.make CMakeFiles/sets.dir/src/sets.cpp.i
+.PHONY : src/sets.cpp.i
+
+src/sets.s: src/sets.cpp.s
+.PHONY : src/sets.s
+
+# target to generate assembly for a file
+src/sets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sets.dir/build.make CMakeFiles/sets.dir/src/sets.cpp.s
+.PHONY : src/sets.cpp.s
+
 src/templated_classes.o: src/templated_classes.cpp.o
 .PHONY : src/templated_classes.o
 
@@ -314,6 +401,30 @@ src/templated_functions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/templated_functions.dir/build.make CMakeFiles/templated_functions.dir/src/templated_functions.cpp.s
 .PHONY : src/templated_functions.cpp.s
 
+src/unordered_maps.o: src/unordered_maps.cpp.o
+.PHONY : src/unordered_maps.o
+
+# target to build an object file
+src/unordered_maps.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unordered_maps.dir/build.make CMakeFiles/unordered_maps.dir/src/unordered_maps.cpp.o
+.PHONY : src/unordered_maps.cpp.o
+
+src/unordered_maps.i: src/unordered_maps.cpp.i
+.PHONY : src/unordered_maps.i
+
+# target to preprocess a source file
+src/unordered_maps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unordered_maps.dir/build.make CMakeFiles/unordered_maps.dir/src/unordered_maps.cpp.i
+.PHONY : src/unordered_maps.cpp.i
+
+src/unordered_maps.s: src/unordered_maps.cpp.s
+.PHONY : src/unordered_maps.s
+
+# target to generate assembly for a file
+src/unordered_maps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unordered_maps.dir/build.make CMakeFiles/unordered_maps.dir/src/unordered_maps.cpp.s
+.PHONY : src/unordered_maps.cpp.s
+
 src/vectors.o: src/vectors.cpp.o
 .PHONY : src/vectors.o
 
@@ -346,12 +457,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... auto"
 	@echo "... move_constructors"
 	@echo "... move_semantics"
 	@echo "... references"
+	@echo "... sets"
 	@echo "... templated_classes"
 	@echo "... templated_functions"
+	@echo "... unordered_maps"
 	@echo "... vectors"
+	@echo "... src/auto.o"
+	@echo "... src/auto.i"
+	@echo "... src/auto.s"
 	@echo "... src/move_constructors.o"
 	@echo "... src/move_constructors.i"
 	@echo "... src/move_constructors.s"
@@ -361,12 +478,18 @@ help:
 	@echo "... src/references.o"
 	@echo "... src/references.i"
 	@echo "... src/references.s"
+	@echo "... src/sets.o"
+	@echo "... src/sets.i"
+	@echo "... src/sets.s"
 	@echo "... src/templated_classes.o"
 	@echo "... src/templated_classes.i"
 	@echo "... src/templated_classes.s"
 	@echo "... src/templated_functions.o"
 	@echo "... src/templated_functions.i"
 	@echo "... src/templated_functions.s"
+	@echo "... src/unordered_maps.o"
+	@echo "... src/unordered_maps.i"
+	@echo "... src/unordered_maps.s"
 	@echo "... src/vectors.o"
 	@echo "... src/vectors.i"
 	@echo "... src/vectors.s"

@@ -51,6 +51,30 @@
             "program": "${workspaceFolder}/bin/vectors",
             "args": [],
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug sets",
+            "program": "${workspaceFolder}/bin/sets",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug unordered_maps",
+            "program":"${workspaceFolder}/bin/unordered_maps",
+            "args":[],
+            "cwd":"${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug auto",
+            "program":"${workspaceFolder}/bin/auto",
+            "args":[],
+            "cwd":"${workspaceFolder}"
         }
     ]
 }

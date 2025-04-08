@@ -50,4 +50,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/move_semantics.dir/DependInfo.cmake"
   "CMakeFiles/move_constructors.dir/DependInfo.cmake"
   "CMakeFiles/vectors.dir/DependInfo.cmake"
+  "CMakeFiles/sets.dir/DependInfo.cmake"
+  "CMakeFiles/unordered_maps.dir/DependInfo.cmake"
+  "CMakeFiles/auto.dir/DependInfo.cmake"
   )

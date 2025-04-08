@@ -34,5 +34,23 @@
   "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/vectors.dir/src/vectors.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/vectors.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/vectors.cpp",
   "output": "CMakeFiles/vectors.dir/src/vectors.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/sets.dir/src/sets.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/sets.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/sets.cpp",
+  "output": "CMakeFiles/sets.dir/src/sets.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/unordered_maps.dir/src/unordered_maps.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/unordered_maps.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/unordered_maps.cpp",
+  "output": "CMakeFiles/unordered_maps.dir/src/unordered_maps.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/auto.dir/src/auto.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/auto.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/auto.cpp",
+  "output": "CMakeFiles/auto.dir/src/auto.cpp.o"
 }
 ]

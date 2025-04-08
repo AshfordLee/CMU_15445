@@ -16,6 +16,8 @@ add_executable(references src/references.cpp)
 add_executable(move_semantics src/move_semantics.cpp)
 add_executable(move_constructors src/move_constructors.cpp)
 add_executable(vectors src/vectors.cpp)
-
+add_executable(sets src/sets.cpp)
+add_executable(unordered_maps src/unordered_maps.cpp)
+add_executable(auto src/auto.cpp)
 # 添加include目录（如果有头文件的话）
 include_directories(include)
