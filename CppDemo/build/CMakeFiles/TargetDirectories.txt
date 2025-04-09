@@ -7,5 +7,7 @@
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/sets.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/unordered_maps.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/auto.dir
+/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/wrapper_class.dir
+/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/iterator.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/edit_cache.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/rebuild_cache.dir

@@ -233,6 +233,32 @@ auto/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auto.dir/build.make CMakeFiles/auto.dir/build
 .PHONY : auto/fast
 
+#=============================================================================
+# Target rules for targets named wrapper_class
+
+# Build rule for target.
+wrapper_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_class
+.PHONY : wrapper_class
+
+# fast build rule for target.
+wrapper_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wrapper_class.dir/build.make CMakeFiles/wrapper_class.dir/build
+.PHONY : wrapper_class/fast
+
+#=============================================================================
+# Target rules for targets named iterator
+
+# Build rule for target.
+iterator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator
+.PHONY : iterator
+
+# fast build rule for target.
+iterator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/build
+.PHONY : iterator/fast
+
 src/auto.o: src/auto.cpp.o
 .PHONY : src/auto.o
 
@@ -256,6 +282,30 @@ src/auto.s: src/auto.cpp.s
 src/auto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auto.dir/build.make CMakeFiles/auto.dir/src/auto.cpp.s
 .PHONY : src/auto.cpp.s
+
+src/iterator.o: src/iterator.cpp.o
+.PHONY : src/iterator.o
+
+# target to build an object file
+src/iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/src/iterator.cpp.o
+.PHONY : src/iterator.cpp.o
+
+src/iterator.i: src/iterator.cpp.i
+.PHONY : src/iterator.i
+
+# target to preprocess a source file
+src/iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/src/iterator.cpp.i
+.PHONY : src/iterator.cpp.i
+
+src/iterator.s: src/iterator.cpp.s
+.PHONY : src/iterator.s
+
+# target to generate assembly for a file
+src/iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/src/iterator.cpp.s
+.PHONY : src/iterator.cpp.s
 
 src/move_constructors.o: src/move_constructors.cpp.o
 .PHONY : src/move_constructors.o
@@ -449,6 +499,30 @@ src/vectors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vectors.dir/build.make CMakeFiles/vectors.dir/src/vectors.cpp.s
 .PHONY : src/vectors.cpp.s
 
+src/wrapper_class.o: src/wrapper_class.cpp.o
+.PHONY : src/wrapper_class.o
+
+# target to build an object file
+src/wrapper_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wrapper_class.dir/build.make CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.o
+.PHONY : src/wrapper_class.cpp.o
+
+src/wrapper_class.i: src/wrapper_class.cpp.i
+.PHONY : src/wrapper_class.i
+
+# target to preprocess a source file
+src/wrapper_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wrapper_class.dir/build.make CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.i
+.PHONY : src/wrapper_class.cpp.i
+
+src/wrapper_class.s: src/wrapper_class.cpp.s
+.PHONY : src/wrapper_class.s
+
+# target to generate assembly for a file
+src/wrapper_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wrapper_class.dir/build.make CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.s
+.PHONY : src/wrapper_class.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -458,6 +532,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... auto"
+	@echo "... iterator"
 	@echo "... move_constructors"
 	@echo "... move_semantics"
 	@echo "... references"
@@ -466,9 +541,13 @@ help:
 	@echo "... templated_functions"
 	@echo "... unordered_maps"
 	@echo "... vectors"
+	@echo "... wrapper_class"
 	@echo "... src/auto.o"
 	@echo "... src/auto.i"
 	@echo "... src/auto.s"
+	@echo "... src/iterator.o"
+	@echo "... src/iterator.i"
+	@echo "... src/iterator.s"
 	@echo "... src/move_constructors.o"
 	@echo "... src/move_constructors.i"
 	@echo "... src/move_constructors.s"
@@ -493,6 +572,9 @@ help:
 	@echo "... src/vectors.o"
 	@echo "... src/vectors.i"
 	@echo "... src/vectors.s"
+	@echo "... src/wrapper_class.o"
+	@echo "... src/wrapper_class.i"
+	@echo "... src/wrapper_class.s"
 .PHONY : help
 
 

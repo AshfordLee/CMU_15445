@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/root/CMU_C++_BOOTCAMP/CppDemo/bin/sets"
+			"path" : "/root/CMU_C++_BOOTCAMP/CppDemo/bin/move_constructors"
 		}
 	],
 	"backtrace" : 1,
@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 23,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -67,7 +67,7 @@
 			]
 		}
 	],
-	"id" : "sets::@6890427a1f51a3e7e1df",
+	"id" : "move_constructors::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -83,8 +83,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "sets",
-	"nameOnDisk" : "sets",
+	"name" : "move_constructors",
+	"nameOnDisk" : "move_constructors",
 	"paths" : 
 	{
 		"build" : ".",
@@ -105,7 +105,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/sets.cpp",
+			"path" : "src/move_constructors.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

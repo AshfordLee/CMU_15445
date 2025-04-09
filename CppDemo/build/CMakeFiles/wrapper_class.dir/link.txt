@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.o -o /root/CMU_C++_BOOTCAMP/CppDemo/bin/wrapper_class 

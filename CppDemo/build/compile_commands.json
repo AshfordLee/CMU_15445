@@ -52,5 +52,17 @@
   "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/auto.dir/src/auto.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/auto.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/auto.cpp",
   "output": "CMakeFiles/auto.dir/src/auto.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/wrapper_class.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/wrapper_class.cpp",
+  "output": "CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/iterator.dir/src/iterator.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/iterator.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/iterator.cpp",
+  "output": "CMakeFiles/iterator.dir/src/iterator.cpp.o"
 }
 ]

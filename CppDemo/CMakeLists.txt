@@ -19,5 +19,7 @@ add_executable(vectors src/vectors.cpp)
 add_executable(sets src/sets.cpp)
 add_executable(unordered_maps src/unordered_maps.cpp)
 add_executable(auto src/auto.cpp)
+add_executable(wrapper_class src/wrapper_class.cpp)
+add_executable(iterator src/iterator.cpp)
 # 添加include目录（如果有头文件的话）
 include_directories(include)

@@ -75,6 +75,22 @@
             "program":"${workspaceFolder}/bin/auto",
             "args":[],
             "cwd":"${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug wrapper_class",
+            "program":"${workspaceFolder}/bin/wrapper_class",
+            "args":[],
+            "cwd":"${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug iterator",
+            "program":"${workspaceFolder}/bin/iterator",
+            "args":[],
+            "cwd":"${workspaceFolder}"
         }
     ]
 }
