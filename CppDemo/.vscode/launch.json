@@ -91,6 +91,23 @@
             "program":"${workspaceFolder}/bin/iterator",
             "args":[],
             "cwd":"${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug namespaces",
+            "program":"${workspaceFolder}/bin/namespaces",
+            "args":[],
+            "cwd":"${workspaceFolder}"
+            
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug unique_ptr",
+            "program":"${workspaceFolder}/bin/unique_ptr",
+            "args":[],
+            "cwd":"${workspaceFolder}"
         }
     ]
 }

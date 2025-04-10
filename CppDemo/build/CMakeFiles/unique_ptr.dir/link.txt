@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.o -o /root/CMU_C++_BOOTCAMP/CppDemo/bin/unique_ptr 

@@ -55,4 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/auto.dir/DependInfo.cmake"
   "CMakeFiles/wrapper_class.dir/DependInfo.cmake"
   "CMakeFiles/iterator.dir/DependInfo.cmake"
+  "CMakeFiles/namespaces.dir/DependInfo.cmake"
+  "CMakeFiles/unique_ptr.dir/DependInfo.cmake"
   )

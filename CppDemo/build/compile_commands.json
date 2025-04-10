@@ -64,5 +64,17 @@
   "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/iterator.dir/src/iterator.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/iterator.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/iterator.cpp",
   "output": "CMakeFiles/iterator.dir/src/iterator.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/namespaces.dir/src/namespaces.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/namespaces.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/namespaces.cpp",
+  "output": "CMakeFiles/namespaces.dir/src/namespaces.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/unique_ptr.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/unique_ptr.cpp",
+  "output": "CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.o"
 }
 ]

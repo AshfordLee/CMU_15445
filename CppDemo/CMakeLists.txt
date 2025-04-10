@@ -21,5 +21,7 @@ add_executable(unordered_maps src/unordered_maps.cpp)
 add_executable(auto src/auto.cpp)
 add_executable(wrapper_class src/wrapper_class.cpp)
 add_executable(iterator src/iterator.cpp)
+add_executable(namespaces src/namespaces.cpp)
+add_executable(unique_ptr src/unique_ptr.cpp)
 # 添加include目录（如果有头文件的话）
 include_directories(include)

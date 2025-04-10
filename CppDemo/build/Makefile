@@ -259,6 +259,32 @@ iterator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iterator.dir/build.make CMakeFiles/iterator.dir/build
 .PHONY : iterator/fast
 
+#=============================================================================
+# Target rules for targets named namespaces
+
+# Build rule for target.
+namespaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 namespaces
+.PHONY : namespaces
+
+# fast build rule for target.
+namespaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/namespaces.dir/build.make CMakeFiles/namespaces.dir/build
+.PHONY : namespaces/fast
+
+#=============================================================================
+# Target rules for targets named unique_ptr
+
+# Build rule for target.
+unique_ptr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unique_ptr
+.PHONY : unique_ptr
+
+# fast build rule for target.
+unique_ptr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/build
+.PHONY : unique_ptr/fast
+
 src/auto.o: src/auto.cpp.o
 .PHONY : src/auto.o
 
@@ -354,6 +380,30 @@ src/move_semantics.s: src/move_semantics.cpp.s
 src/move_semantics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_semantics.dir/build.make CMakeFiles/move_semantics.dir/src/move_semantics.cpp.s
 .PHONY : src/move_semantics.cpp.s
+
+src/namespaces.o: src/namespaces.cpp.o
+.PHONY : src/namespaces.o
+
+# target to build an object file
+src/namespaces.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/namespaces.dir/build.make CMakeFiles/namespaces.dir/src/namespaces.cpp.o
+.PHONY : src/namespaces.cpp.o
+
+src/namespaces.i: src/namespaces.cpp.i
+.PHONY : src/namespaces.i
+
+# target to preprocess a source file
+src/namespaces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/namespaces.dir/build.make CMakeFiles/namespaces.dir/src/namespaces.cpp.i
+.PHONY : src/namespaces.cpp.i
+
+src/namespaces.s: src/namespaces.cpp.s
+.PHONY : src/namespaces.s
+
+# target to generate assembly for a file
+src/namespaces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/namespaces.dir/build.make CMakeFiles/namespaces.dir/src/namespaces.cpp.s
+.PHONY : src/namespaces.cpp.s
 
 src/references.o: src/references.cpp.o
 .PHONY : src/references.o
@@ -451,6 +501,30 @@ src/templated_functions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/templated_functions.dir/build.make CMakeFiles/templated_functions.dir/src/templated_functions.cpp.s
 .PHONY : src/templated_functions.cpp.s
 
+src/unique_ptr.o: src/unique_ptr.cpp.o
+.PHONY : src/unique_ptr.o
+
+# target to build an object file
+src/unique_ptr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.o
+.PHONY : src/unique_ptr.cpp.o
+
+src/unique_ptr.i: src/unique_ptr.cpp.i
+.PHONY : src/unique_ptr.i
+
+# target to preprocess a source file
+src/unique_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.i
+.PHONY : src/unique_ptr.cpp.i
+
+src/unique_ptr.s: src/unique_ptr.cpp.s
+.PHONY : src/unique_ptr.s
+
+# target to generate assembly for a file
+src/unique_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.s
+.PHONY : src/unique_ptr.cpp.s
+
 src/unordered_maps.o: src/unordered_maps.cpp.o
 .PHONY : src/unordered_maps.o
 
@@ -535,10 +609,12 @@ help:
 	@echo "... iterator"
 	@echo "... move_constructors"
 	@echo "... move_semantics"
+	@echo "... namespaces"
 	@echo "... references"
 	@echo "... sets"
 	@echo "... templated_classes"
 	@echo "... templated_functions"
+	@echo "... unique_ptr"
 	@echo "... unordered_maps"
 	@echo "... vectors"
 	@echo "... wrapper_class"
@@ -554,6 +630,9 @@ help:
 	@echo "... src/move_semantics.o"
 	@echo "... src/move_semantics.i"
 	@echo "... src/move_semantics.s"
+	@echo "... src/namespaces.o"
+	@echo "... src/namespaces.i"
+	@echo "... src/namespaces.s"
 	@echo "... src/references.o"
 	@echo "... src/references.i"
 	@echo "... src/references.s"
@@ -566,6 +645,9 @@ help:
 	@echo "... src/templated_functions.o"
 	@echo "... src/templated_functions.i"
 	@echo "... src/templated_functions.s"
+	@echo "... src/unique_ptr.o"
+	@echo "... src/unique_ptr.i"
+	@echo "... src/unique_ptr.s"
 	@echo "... src/unordered_maps.o"
 	@echo "... src/unordered_maps.i"
 	@echo "... src/unordered_maps.s"
