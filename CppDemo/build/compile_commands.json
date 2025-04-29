@@ -1,80 +1,110 @@
 [
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/templated_classes.dir/src/templated_classes.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/templated_classes.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/templated_classes.dir/src/templated_classes.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/templated_classes.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/templated_classes.cpp",
   "output": "CMakeFiles/templated_classes.dir/src/templated_classes.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/templated_functions.dir/src/templated_functions.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/templated_functions.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/templated_functions.dir/src/templated_functions.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/templated_functions.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/templated_functions.cpp",
   "output": "CMakeFiles/templated_functions.dir/src/templated_functions.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/references.dir/src/references.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/references.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/references.dir/src/references.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/references.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/references.cpp",
   "output": "CMakeFiles/references.dir/src/references.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/move_semantics.dir/src/move_semantics.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/move_semantics.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/move_semantics.dir/src/move_semantics.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/move_semantics.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/move_semantics.cpp",
   "output": "CMakeFiles/move_semantics.dir/src/move_semantics.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/move_constructors.dir/src/move_constructors.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/move_constructors.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/move_constructors.dir/src/move_constructors.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/move_constructors.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/move_constructors.cpp",
   "output": "CMakeFiles/move_constructors.dir/src/move_constructors.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/vectors.dir/src/vectors.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/vectors.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/vectors.dir/src/vectors.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/vectors.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/vectors.cpp",
   "output": "CMakeFiles/vectors.dir/src/vectors.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/sets.dir/src/sets.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/sets.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/sets.dir/src/sets.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/sets.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/sets.cpp",
   "output": "CMakeFiles/sets.dir/src/sets.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/unordered_maps.dir/src/unordered_maps.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/unordered_maps.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/unordered_maps.dir/src/unordered_maps.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/unordered_maps.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/unordered_maps.cpp",
   "output": "CMakeFiles/unordered_maps.dir/src/unordered_maps.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/auto.dir/src/auto.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/auto.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/auto.dir/src/auto.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/auto.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/auto.cpp",
   "output": "CMakeFiles/auto.dir/src/auto.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/wrapper_class.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/wrapper_class.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/wrapper_class.cpp",
   "output": "CMakeFiles/wrapper_class.dir/src/wrapper_class.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/iterator.dir/src/iterator.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/iterator.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/iterator.dir/src/iterator.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/iterator.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/iterator.cpp",
   "output": "CMakeFiles/iterator.dir/src/iterator.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/namespaces.dir/src/namespaces.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/namespaces.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/namespaces.dir/src/namespaces.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/namespaces.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/namespaces.cpp",
   "output": "CMakeFiles/namespaces.dir/src/namespaces.cpp.o"
 },
 {
   "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
-  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++14 -o CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/unique_ptr.cpp",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/unique_ptr.cpp",
   "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/unique_ptr.cpp",
   "output": "CMakeFiles/unique_ptr.dir/src/unique_ptr.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/shared_ptr.dir/src/shared_ptr.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/shared_ptr.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/shared_ptr.cpp",
+  "output": "CMakeFiles/shared_ptr.dir/src/shared_ptr.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/mutex.dir/src/mutex.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/mutex.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/mutex.cpp",
+  "output": "CMakeFiles/mutex.dir/src/mutex.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/scoped_lock.dir/src/scoped_lock.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/scoped_lock.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/scoped_lock.cpp",
+  "output": "CMakeFiles/scoped_lock.dir/src/scoped_lock.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/condition_variable.dir/src/condition_variable.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/condition_variable.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/condition_variable.cpp",
+  "output": "CMakeFiles/condition_variable.dir/src/condition_variable.cpp.o"
+},
+{
+  "directory": "/root/CMU_C++_BOOTCAMP/CppDemo/build",
+  "command": "/usr/bin/g++  -I/root/CMU_C++_BOOTCAMP/CppDemo/include -g -std=gnu++17 -o CMakeFiles/rwlock.dir/src/rwlock.cpp.o -c /root/CMU_C++_BOOTCAMP/CppDemo/src/rwlock.cpp",
+  "file": "/root/CMU_C++_BOOTCAMP/CppDemo/src/rwlock.cpp",
+  "output": "CMakeFiles/rwlock.dir/src/rwlock.cpp.o"
 }
 ]

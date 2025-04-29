@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/shared_ptr.dir/src/shared_ptr.cpp.o -o /root/CMU_C++_BOOTCAMP/CppDemo/bin/shared_ptr 

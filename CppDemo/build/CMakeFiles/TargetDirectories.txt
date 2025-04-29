@@ -11,5 +11,10 @@
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/iterator.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/namespaces.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/unique_ptr.dir
+/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/shared_ptr.dir
+/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/mutex.dir
+/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/scoped_lock.dir
+/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/condition_variable.dir
+/root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/rwlock.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/edit_cache.dir
 /root/CMU_C++_BOOTCAMP/CppDemo/build/CMakeFiles/rebuild_cache.dir

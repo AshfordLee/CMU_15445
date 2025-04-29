@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/scoped_lock.dir/src/scoped_lock.cpp.o -o /root/CMU_C++_BOOTCAMP/CppDemo/bin/scoped_lock 

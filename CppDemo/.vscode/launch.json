@@ -108,8 +108,48 @@
             "program":"${workspaceFolder}/bin/unique_ptr",
             "args":[],
             "cwd":"${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug shared_ptr",
+            "program":"${workspaceFolder}/bin/shared_ptr",
+            "args":[],
+            "cwd":"${workspaceFolder}"
+            
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug mutex",
+            "program":"${workspaceFolder}/bin/mutex",
+            "args":[],
+            "cwd":"${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug scoped_lock",
+            "program":"${workspaceFolder}/bin/scoped_lock",
+            "args":[],
+            "cwd":"${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug condition_variable",
+            "program":"${workspaceFolder}/bin/condition_variable",
+            "args":[],
+            "cwd":"${workspaceFolder}"
+        },
+        {
+            "type":"lldb",
+            "request":"launch",
+            "name":"Debug rwlock",
+            "program":"${workspaceFolder}/bin/rwlock",
+            "args":[],
+            "cwd":"${workspaceFolder}"
         }
     ]
 }
-
 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/mutex.dir/src/mutex.cpp.o -o /root/CMU_C++_BOOTCAMP/CppDemo/bin/mutex 
